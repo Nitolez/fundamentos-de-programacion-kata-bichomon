@@ -7,7 +7,7 @@
     // Cambia el color de fondo de la primera generación de Pokimon
     const firstGenerationElement = document.querySelector('.infocard');
     if (firstGenerationElement) {
-        firstGenerationElement.style.backgroundColor = '#FFD700'; // Color dorado, puedes cambiarlo a tu preferencia
+        firstGenerationElement.style.backgroundColor = 'yellow'
     }
 
     // Imprime por consola la URL de la página
