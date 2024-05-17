@@ -1,6 +1,4 @@
-console.log(document.title);
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Cambia el título "Generation 1 Pokémon" por "Generasión 1 Pokimon"
+// Cambia el título "Generation 1 Pokémon" por "Generasión 1 Pokimon"
     const titleElement = document.querySelector('h1');
     if (titleElement) {
         titleElement.textContent = 'Generasión 1 Pokimon';
@@ -35,4 +33,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
             infocardElement.style.backgroundColor = '#ADD8E6'; // Color azul claro, puedes cambiarlo a tu preferencia
         }
     });
-});
+
